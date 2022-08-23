@@ -35,5 +35,25 @@ public class BasicsRegExClass {
         System.out.println("523 343 343 43334".matches("(\\d{3}[-.,\\s]?){3}\\d{4,}"));//true
         System.out.println("24324.523 343 343 43334".matches("(\\d{3,}[-.,\\s]*)*(\\d{3}[-.,\\s]?){3}\\d{4,}"));//true
         System.out.println("---------------------------------------------");
+
+        System.out.println("Any character");
+        System.out.println("doggy".matches(".*"));//true; . - means any char
+        System.out.println("---------------------------------------------");
+
+        System.out.println("Beginning & Ending of the string");
+        System.out.println("doggy".matches("^.....$"));//true; ^ - means string beginning & $ - means string ending
+        System.out.println("---------------------------------------------");
+
+        System.out.println("None chars");
+        System.out.println("---".matches("\\W\\W\\W"));//true; W - not a char
+        System.out.println("---------------------------------------------");
+
+        System.out.println("None numbers");
+        System.out.println("uyf".matches("\\D\\D\\D"));//true; D - not a number
+        System.out.println("---------------------------------------------");
+
+        System.out.println("None spaces");
+        System.out.println("1-2".matches("\\S\\S\\S"));//true; S - not a space
+        System.out.println("---------------------------------------------");
     }
 }
