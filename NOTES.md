@@ -21,3 +21,11 @@
 
 #### ManyToOne
 ![many](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/ManyToOne.png)
+
+### Custom exceptions
+
+#### IdAlreadyExistException
+![idex](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/IDAlreadyExc.png)
+
+#### OrmFieldTypeException
+![orm](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/OrmFieldEx.png)
