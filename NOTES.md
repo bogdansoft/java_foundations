@@ -18,12 +18,12 @@ For table names, use the @Table annotation and specify the actual name that you'
 #### Id
 ![id](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/Id.png)
 
-This annotation (@Id) is simple and it's used to “mark” the primary key for the table. This annotation should only be used at the field level.
+This annotation (@Id) is simple and it's used to “mark” the primary key for the table. This annotation should only be used at the field & method level.
 
 #### Column
 ![column](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/Column.png)
 
-For column names, use the @Column annotation and specify the actual column name that you'd like to use inside of it. This annotation should only be used at field level. 
+For column names, use the @Column annotation and specify the actual column name that you'd like to use inside of it. This annotation should only be used at field & method level. 
 
 #### OneToMany
 ![one](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/OneToMany.png)
