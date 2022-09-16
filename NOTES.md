@@ -28,8 +28,13 @@ For column names, use the @Column annotation and specify the actual column name 
 #### OneToMany
 ![one](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/OneToMany.png)
 
+A one to many relationship can occur, if an entity is related to multiple occurrences in another entity. In simple terms, if one row in database table can 
+be mapped to multiple rows in another table. This annotation should only be used at field & method level.
+
 #### ManyToOne
 ![many](https://github.com/bogdansoft/java_foundations/blob/master/src/main/resources/images/ManyToOne.png)
+
+A many-to-one mapping means that many instances of this entity are mapped to one instance of another entity – many items in one cart. This annotation should only be used at field & method level.
 
 ### Custom exceptions
 
